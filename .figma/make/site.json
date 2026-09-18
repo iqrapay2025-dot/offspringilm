@@ -1,0 +1,10 @@
+{
+  "description": "This responsive multi-page web application offers a sleek user interface with animations and an image carousel, enhancing navigation and user experience for Offspring's audience.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
