@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import ScrollReveal from '../components/ScrollReveal';
+import aboutImg from '@/assets/images/559181857_813817207709621_3929165494222016148_n.jpeg';
 
 const values = [
   {
@@ -70,7 +71,7 @@ export default function About() {
             <ScrollReveal direction="left">
               <div className="relative rounded-[20px] overflow-hidden aspect-[4/3]">
                 <img
-                  src="https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/489043184_2186416151773902_3413346428866868665_n.jpg?stp=c210.0.540.540a_dst-jpg_tt6&cstp=mx540x540&ctp=s206x206&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=kdxqdTppM-AQ7kNvwFU9g-E&_nc_oc=Adqm-G80VdSIjJ1-MfXDb5vplwOYkylD3NVZod8mqm52pkBnhGz5qSXsyNqUH73G_WM&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=DgqJpvn25TF7mya7jth__w&_nc_ss=7b289&oh=00_AQKHjXug9heQZwVk40R0o7g5j0rr9GtRkJXfx5fIvFVNVA&oe=6AB09392"
+                  src={aboutImg}
                   alt="Teacher standing in front of a group of students"
                   className="w-full h-full object-cover"
                 />

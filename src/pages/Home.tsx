@@ -1,23 +1,29 @@
 import { useEffect, useState, useCallback } from 'react';
 import { Link } from 'react-router';
 import ScrollReveal from '../components/ScrollReveal';
+import slide1 from '@/assets/images/487385044_1130437018882512_1531775478887903090_n.jpg';
+import slide2 from '@/assets/images/488601137_1132076785385202_6373178735228579181_n.jpg';
+import slide3 from '@/assets/images/523480641_1220542599871953_8663890231926990124_n.jpg';
+import slide4 from '@/assets/images/523496786_1065479392334648_8992094653550319402_n.jpeg';
+import homeImg1 from '@/assets/images/527063589_1227631009163112_4611810313079309974_n.jpg';
+import homeImg2 from '@/assets/images/528608305_1229064382353108_536341932731661442_n.jpeg';
 
 /* ─── Hero Carousel ────────────────────────────────────────────────── */
 const carouselSlides = [
   {
-    url: 'https://scontent.flos2-2.fna.fbcdn.net/v/t39.30808-6/488601137_1132076785385202_6373178735228579181_n.jpg?stp=c0.89.1080.1080a_dst-jpg_tt6&cstp=mx1080x1080&ctp=s206x206&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=qcLCod_8Bp8Q7kNvwG7nrPS&_nc_oc=Adpr-qi3ne_RmgB30Xz4Pc9A0UMsuEzI5Ii-gbuQQlTczn6q5lNRISiw35JxW365IPc&_nc_zt=23&_nc_ht=scontent.flos2-2.fna&_nc_gid=9dfLj08f7pwT4WxS1v4YWg&_nc_ss=7b289&oh=00_AQKggg2Blfpw5NYlXDlcQ91xqQmY8k50-7A8NELQ_KxRhQ&oe=6AB09264',
+    url: slide1,
     alt: 'Offsprings Ilm School students in class',
   },
   {
-    url: 'https://scontent.flos2-1.fna.fbcdn.net/v/t39.30808-6/485370643_1123660359560178_3969336767316551515_n.jpg?stp=c135.0.810.810a_dst-jpg_tt6&cstp=mx810x810&ctp=s206x206&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=chySuXDXPfcQ7kNvwG1Puz6&_nc_oc=AdqrxebMYXjpqqMcOwAqeJOA-M9wluEAH4yofNkkwivbu_SHk2Jp8MLsJcbNhGoCf84&_nc_zt=23&_nc_ht=scontent.flos2-1.fna&_nc_gid=u7OurUsRDzIhNGCd7ufKjQ&_nc_ss=7b289&oh=00_AQJGvdctSOvKJcCNsZXc1bG9Zcd7qpbeI489MneTBqse8w&oe=6AB0704B',
+    url: slide2,
     alt: 'Offsprings Ilm School learning activity',
   },
   {
-    url: 'https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/486817611_1129682662291281_2161555161221590403_n.jpg?stp=c273.0.734.734a_dst-jpg_tt6&cstp=mx734x734&ctp=s206x206&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=ORHQRW9P4kcQ7kNvwGMWlHR&_nc_oc=AdqLDBNMWtou0csUXVnvgdTy9naikkaz4wsuMEw8qDEHXlS-8Og-47v64_OVj7_roTw&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=iJ_KbaLLuNWUGduZLfdL9g&_nc_ss=7b289&oh=00_AQITfe40lzOcPgeGTQowlwh8EwUIN17sg04WUXmbWdgj8g&oe=6AB0792C',
+    url: slide3,
     alt: 'Offsprings Ilm School students at assembly',
   },
   {
-    url: 'https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/486299582_1126821192577428_2107356948676050908_n.jpg?stp=c280.0.720.720a_dst-jpg_tt6&cstp=mx720x720&ctp=s206x206&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=wauj71VezPwQ7kNvwEJa97q&_nc_oc=Adrc4A9SR4C2apus0nUHEeiARQdrj-u1ux2RbbwUXRTJV4HVd98hLsKZ0ziw22wfSV0&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=TJ648YahiRSdFpGVGjQeQg&_nc_ss=7b289&oh=00_AQIk5YgJjLgrljlU-T38ugUxAtDR7iZ3VUbI8wxQHm2nfg&oe=6AB067E4',
+    url: slide4,
     alt: 'Offsprings Ilm School courtyard and community',
   },
 ];
@@ -208,7 +214,7 @@ function WhoWeAreSection() {
           <ScrollReveal delay={120} className="card-hover">
             <div className="relative rounded-[18px] overflow-hidden h-72 md:h-full min-h-64 shadow-[0_4px_24px_rgba(0,0,0,0.08)]">
               <img
-                src="https://scontent.flos2-1.fna.fbcdn.net/v/t39.30808-6/480026821_1097940835465464_1018416777213086635_n.jpg?stp=c76.0.809.809a_dst-jpg_tt6&cstp=mx809x809&ctp=s206x206&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=BaQJt7j0hZ4Q7kNvwHuMuRX&_nc_oc=Adq0sDWWI6b0p5__FiHAKMotykpvirXS1s03L3zTOOqQM9E_x9N_9WQJfF2LS-e82sc&_nc_zt=23&_nc_ht=scontent.flos2-1.fna&_nc_gid=hDLbXn85HFgZvnkZMkCZ4Q&_nc_ss=7b289&oh=00_AQL7WgwxK7PKhtcnkYSeq90CZzZq2ogKXDj6Rcu3C4edOQ&oe=6AB0735B"
+                src={homeImg1}
                 alt="Offsprings Ilm School students engaged in class activity"
                 className="w-full h-full object-cover object-center"
               />
@@ -596,7 +602,7 @@ function BeyondClassroomSection() {
           <ScrollReveal direction="left" className="relative">
             <div className="relative rounded-[20px] overflow-hidden aspect-[4/3]">
               <img
-                src="https://scontent.flos2-1.fna.fbcdn.net/v/t39.30808-6/490090330_2191975251217992_1882268714969923056_n.jpg?stp=c160.0.640.640a_dst-jpg_tt6&cstp=mx640x640&ctp=s206x206&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=008kzmff4UsQ7kNvwEeTad7&_nc_oc=AdqoGVGwCYkL34GnXERGaA9N8vat1DQlHpUr0dpVNa82LEre4VHqGlLYU6epx2ulimU&_nc_zt=23&_nc_ht=scontent.flos2-1.fna&_nc_gid=rLakWOMWkqwNu1tgt6d90w&_nc_ss=7b289&oh=00_AQLF1_8jLY2EHuYH3j7xRhIGe2i7YB7FhdZFSEoxylvfJw&oe=6AB091A7"
+                src={homeImg2}
                 alt="Offsprings Ilm School student learning activity"
                 className="w-full h-full object-cover object-center"
               />

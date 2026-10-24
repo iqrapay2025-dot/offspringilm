@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import ScrollReveal from '../components/ScrollReveal';
+import collegeImg from '@/assets/images/815250186_17965479693076676_7822628682220603103_n.jpeg';
 
 const examSubjects = [
   'English Language', 'Mathematics', 'Biology', 'Chemistry', 'Physics',
@@ -56,7 +57,7 @@ export default function College() {
             <ScrollReveal direction="left">
               <div className="relative rounded-[20px] overflow-hidden aspect-[4/3]">
                 <img
-                  src="https://scontent.flos3-2.fna.fbcdn.net/v/t1.6435-9/204173451_1266903067058553_1075551530797947883_n.jpg?stp=c0.80.719.719a_dst-jpg_tt6&cstp=mx719x719&ctp=s206x206&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=TF1fKexDe2QQ7kNvwG7gMA8&_nc_oc=AdouPkjAatI_GAQPYqt5Tadaav0R7jYcwCZglQTNxOqvzH2D6FvKz427usxOtEB5p_g&_nc_zt=23&_nc_ht=scontent.flos3-2.fna&_nc_gid=4P-xKWDL4TXlUw4kMEkyLg&_nc_ss=7b289&oh=00_AQKm5my1aG1VsiFsSRIF3-XpDZBtVqJF8aXPGfZUQHIFTw&oe=6AD21897"
+                  src={collegeImg}
                   alt="Offsprings Ilm School secondary college students"
                   className="w-full h-full object-cover"
                 />

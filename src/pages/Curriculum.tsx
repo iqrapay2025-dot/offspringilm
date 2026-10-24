@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
 import ScrollReveal from '../components/ScrollReveal';
+import curriculumImg from '@/assets/images/815536030_17965537518076676_5362715968873534595_n.jpeg';
 
 const levels = [
   {
@@ -171,7 +172,7 @@ export default function Curriculum() {
             <ScrollReveal direction="right">
               <div className="relative rounded-[20px] overflow-hidden aspect-[4/3]">
                 <img
-                  src="https://scontent.flos2-2.fna.fbcdn.net/v/t39.30808-6/488733863_2186415975107253_3076230263987925920_n.jpg?stp=c210.0.540.540a_dst-jpg_tt6&cstp=mx540x540&ctp=s206x206&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=50ad20&_nc_ohc=2B0mo2veAuYQ7kNvwEGucej&_nc_oc=AdrWrKPzV37FqN3FjohnqHSUUEierDGuBnlDzFGQ86UwYeckAxu-0zLUUsYKnEQEWhw&_nc_zt=23&_nc_ht=scontent.flos2-2.fna&_nc_gid=DgqJpvn25TF7mya7jth__w&_nc_ss=7b289&oh=00_AQIkaNn7QAALrNS86JGjci-WmuVJg1kLbzehYZ0KuqJk4Q&oe=6AB08981"
+                  src={curriculumImg}
                   alt="Offsprings Ilm School classroom session"
                   className="w-full h-full object-cover"
                 />
